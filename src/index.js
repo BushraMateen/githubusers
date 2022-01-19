@@ -13,6 +13,7 @@ ReactDOM.render(
       domain= "dev-i-m6fh-v.us.auth0.com"
       clientId='kRAUEf4nry1hfaC0uzQtoiOyIqBEjJm2'
       redirectUri={window.location.origin}
+      cacheLocation='localstorage'
       >
         
   

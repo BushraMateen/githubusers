@@ -74,8 +74,7 @@ const GithubProvider = ({children}) => {
     useEffect(checkRequests, []);
     return(
     <GithubContext.Provider value={{githubUser, repos,followers,
-    requests, error,searchGithubUser,isLoading}
-}>
+    requests, error,searchGithubUser,isLoading}}>
     {children}
     </GithubContext.Provider>
     )
